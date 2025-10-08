@@ -20,7 +20,7 @@ export default function AlarmScreen() {
   const [expectedQrContent, setExpectedQrContent] = useState<string | null>(null);
   const [permission, requestPermission] = useCameraPermissions();
 
-  const vibrationIntervalRef = useRef<NodeJS.Timer | null>(null);
+  const vibrationIntervalRef = useRef<number | null>(null);
 
   const hasCameraPermission = useMemo(() => permission?.granted === true, [permission]);
 
