@@ -41,3 +41,66 @@ app-example
 # generated native folders
 /ios
 /android
+
+# Personal project - private files
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-*
+.atom/
+.brackets.json
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Build artifacts
+build/
+dist/
+*.tgz
+*.tar.gz
+
+# Local development
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Personal notes and drafts
+notes/
+drafts/
+personal/
+private/
+
+# Cursor AI configuration (personal rules and notes)
+.cursor/
+
+# Screenshots and media (unless specifically needed)
+screenshots/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.mp4
+*.mov
+*.avi
+
+# Backup files
+*.backup
+*.old
+*.orig
+
+# Temporary files
+temp/
+tmp/
